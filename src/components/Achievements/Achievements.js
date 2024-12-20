@@ -49,7 +49,7 @@ const Achievements = () => {
             <div className="text-xl md:text-3xl lg:text-4xl font-semibold">
               {item.count}
             </div>
-            <div className="text-sm md:text-base lg:text-sm">{item.title}</div>
+            <div className="text-sm md:text-base lg:text-lg">{item.title}</div>
           </div>
         </div>
       ))}

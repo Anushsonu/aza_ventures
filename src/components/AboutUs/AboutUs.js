@@ -5,9 +5,9 @@ import about_banner_3 from "../../assets/images/about_banner_3.jpg";
 const AboutUs = () => {
   const sections = [
     {
-      title: "Building Trust in the Crypto Community",
+      title: "Fostering Trust in Crypto",
       description:
-        "Our success is mirrored in the trust of our growing community. Since our inception, we've fostered a large and loyal community of investors who believe in our vision. They trust us to safeguard and grow their investments, and we take pride in being their reliable partner on this crypto journey.",
+        "We’ve built a loyal community of investors who trust us to protect and grow their investments, making us a reliable partner in their crypto journey.",
       image: about_banner_1,
       animationImage: "fade-right",
       animationText: "fade-left",
@@ -15,15 +15,15 @@ const AboutUs = () => {
     {
       title: "Bridging Experience and Innovation",
       description:
-        "At Aza Ventures, we blend seasoned experience with a youthful spirit, positioning ourselves as industry veterans who understand the pulse of the market. Our commitment is to remain relevant to the young generation of investors, offering them a bridge to the exciting and ever-evolving world of cryptocurrency.",
+        "At Aza Ventures, we combine expertise with youthful energy, connecting seasoned knowledge to the dynamic world of cryptocurrency for the next generation of investors.",
       image: about_banner_2,
       animationImage: "fade-left",
       animationText: "fade-right",
     },
     {
-      title: "Strategic Partnerships and High-Potential Investments",
+      title: "Strategic Partnerships & Growth",
       description:
-        "Aza Ventures stands out not only for our community but also for our strategic partnerships. We've joined forces with well-known institutional investors, leveraging their expertise to identify and invest in high-potential projects. This collaborative approach has allowed us to stay ahead in the ever-evolving crypto landscape.",
+        "Aza Ventures thrives through strategic collaborations with leading institutional investors, leveraging their expertise to identify and invest in high-potential crypto projects, ensuring we stay ahead in the evolving market.",
       image: about_banner_3,
       animationImage: "fade-right",
       animationText: "fade-left",
@@ -42,7 +42,7 @@ const AboutUs = () => {
         {sections.map((section, index) => (
           <div
             key={index}
-            className="bg-white rounded-xl shadow-md overflow-hidden p-6 flex flex-col space-y-4 w-full h-[650px] lg:w-1/3 shadow-xl"
+            className="bg-white rounded-xl shadow-md overflow-hidden p-6 flex flex-col space-y-4 w-full h-[600px] lg:w-1/3 shadow-xl"
             data-aos="fade-down"
             data-aos-duration="300"
           >
