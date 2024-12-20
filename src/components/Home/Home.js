@@ -12,7 +12,7 @@ const Home = () => {
     },
   };
   return (
-    <div className="flex md:flex-row px-5 md:px-20 justify-center md:justify-end overflow-hidden">
+    <div className="flex flex-col-reverse md:flex-row px-5 md:px-20 justify-center md:justify-end overflow-hidden">
       {/* Left Section */}
       <div
         data-aos="fade-right"
@@ -31,8 +31,6 @@ const Home = () => {
         <p className="mt-2 text-xl md:text-3xl font-medium">
           Our Journey in Crypto Investment
         </p>
-
-        {/* Empty divs for spacing before each point */}
         <div className="mt-4"></div>
         <p className="mt-4 text-base md:text-2xl">
           <span className="font-semibold">Founded:</span> 2021
@@ -53,10 +51,11 @@ const Home = () => {
 
       {/* Right Section */}
       <div className="w-full md:w-1/2 overflow-hidden relative mt-8 md:mt-0">
-        <div className="w-full h-full flex justify-center items-center">
+        <div className="w-full h-full max-w-[400px] md:max-w-none flex justify-center items-center mx-auto">
           <Lottie
-            options={defaultOptions} // Set to 0 to allow the animation to take the container's height
-            width="100%" // Set the width to 100% for responsiveness
+            options={defaultOptions}
+            width="100%" // Responsive width
+            height="auto" // Maintain aspect ratio
           />
         </div>
       </div>

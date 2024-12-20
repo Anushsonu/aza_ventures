@@ -67,9 +67,9 @@ const Partnership = () => {
   };
 
   return (
-    <div className="w-full mx-auto p-4">
+    <div className="w-full mx-auto">
       <h1
-        className="text-5xl sm:text-6xl md:text-8xl text-center my-20"
+        className="text-5xl sm:text-6xl md:text-7xl text-center py-10"
         data-aos="fade-down"
         data-aos-duration="300"
       >
@@ -81,7 +81,7 @@ const Partnership = () => {
             <img
               src={image}
               alt={`Partnership ${index + 1}`}
-              className="w-full h-full object-cover rounded-lg"
+              className="w-full h-48 md:h-60 lg:h-40 xl:h-[500px] object-contain mx-auto rounded-lg"
             />
           </div>
         ))}

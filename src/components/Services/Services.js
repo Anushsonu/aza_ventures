@@ -5,8 +5,6 @@ import { RiChatCheckFill } from "react-icons/ri";
 import { FaChartSimple } from "react-icons/fa6";
 import { PiLinkSimpleFill } from "react-icons/pi";
 import { HiCurrencyDollar } from "react-icons/hi";
-import bitcoin_logo from "../../assets/icons/bitcoin_logo.png";
-import ethereum_logo from "../../assets/icons/ethereum_logo.png";
 
 const Services = () => {
   const services = [
@@ -57,9 +55,9 @@ const Services = () => {
   ];
 
   return (
-    <div className="py-10 px-4">
+    <div className="">
       <h1
-        className="text-5xl sm:text-6xl md:text-8xl text-center my-20"
+        className="text-5xl sm:text-6xl md:text-7xl text-center my-20"
         data-aos="fade-down"
         data-aos-duration="300"
       >

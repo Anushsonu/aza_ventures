@@ -2,27 +2,23 @@ import React, { useEffect } from "react";
 import "./App.css";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
-import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Partnership from "./components/Partnerships/Partnership";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Contact from "./components/ContactUs/Contact";
+import Achievements from "./components/Achievements/Achievements";
+import AboutUs from "./components/AboutUs/AboutUs";
 
 function App() {
   useEffect(() => {
-    // Initialize AOS when the component is mounted
     AOS.init({
-      duration: 1000, // Default duration for all animations (1 second)
-      once: false, // Allow animation to trigger every time the element comes into view
-      mirror: true, // Allow animations when scrolling back up as well
+      duration: 1000,
+      once: false,
+      mirror: true,
     });
-
-    // Re-initialize AOS on window resize to handle responsiveness
     window.addEventListener("resize", AOS.refresh);
-
-    // Cleanup the event listener when the component unmounts
     return () => {
       window.removeEventListener("resize", AOS.refresh);
     };
@@ -37,8 +33,11 @@ function App() {
         <div id="home">
           <Home />
         </div>
+        <div id="achievements">
+          <Achievements />
+        </div>
         <div id="about">
-          <About />
+          <AboutUs />
         </div>
         <div id="services">
           <Services />
