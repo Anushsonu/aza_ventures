@@ -46,7 +46,14 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <ul className="hidden md:flex space-x-6 text-lg">
-          {["Home", "About", "Portfolio", "Services", "Contact"].map((item) => (
+          {[
+            "Home",
+            "About",
+            "Services",
+            "Portfolio",
+            "Partnership",
+            "Contact",
+          ].map((item) => (
             <li key={item}>
               <a
                 href={`#${item.toLowerCase()}`}
@@ -87,19 +94,24 @@ const Navbar = () => {
           </button>
 
           <ul className="space-y-4 text-lg">
-            {["Home", "About", "Portfolio", "Services", "Contact"].map(
-              (item) => (
-                <li key={item}>
-                  <a
-                    href={`#${item.toLowerCase()}`}
-                    onClick={toggleMenu}
-                    className="block relative after:content-[''] after:block after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full"
-                  >
-                    {item}
-                  </a>
-                </li>
-              )
-            )}
+            {[
+              "Home",
+              "About",
+              "Services",
+              "Portfolio",
+              "Partnerships",
+              "Contact",
+            ].map((item) => (
+              <li key={item}>
+                <a
+                  href={`#${item.toLowerCase()}`}
+                  onClick={toggleMenu}
+                  className="block relative after:content-[''] after:block after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full"
+                >
+                  {item}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
       </div>

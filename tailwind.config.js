@@ -22,6 +22,9 @@ module.exports = {
         "scroll-right": "scrollRight 20s linear infinite",
         float: "float 1.5s ease-in-out infinite",
       },
+      fontFamily: {
+        sans: ["Roboto", "Open Sans", "sans-serif"], // Use your imported fonts
+      },
     },
   },
   plugins: [],

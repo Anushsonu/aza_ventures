@@ -58,7 +58,11 @@ const Services = () => {
 
   return (
     <div className="py-10 px-4">
-      <h1 className="text-5xl sm:text-6xl md:text-8xl text-center my-20">
+      <h1
+        className="text-5xl sm:text-6xl md:text-8xl text-center my-20"
+        data-aos="fade-down"
+        data-aos-duration="300"
+      >
         Our Services
       </h1>
 

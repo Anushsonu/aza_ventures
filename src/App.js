@@ -5,8 +5,10 @@ import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import Portfolio from "./components/Portfolio/Portfolio";
+import Partnership from "./components/Partnerships/Partnership";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Contact from "./components/ContactUs/Contact";
 
 function App() {
   useEffect(() => {
@@ -27,11 +29,11 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-gradient-to-br from-gray-200 via-purple-300 to-yellow-200 flex flex-col items-center max-w-full px-12 sm:px-24">
+    <div className="bg-gradient-to-br from-gray-200 via-purple-300 to-yellow-200 flex flex-col items-center max-w-screen h-full px-12 sm:px-24">
       <div className="w-full">
         <Navbar />
       </div>
-      <div className="pt-40 items-center space-y-8 w-full">
+      <div className="pt-36 items-center space-y-8 w-full">
         <div id="home">
           <Home />
         </div>
@@ -43,6 +45,12 @@ function App() {
         </div>
         <div id="portfolio">
           <Portfolio />
+        </div>
+        <div id="partnership">
+          <Partnership />
+        </div>
+        <div id="contact">
+          <Contact />
         </div>
       </div>
     </div>

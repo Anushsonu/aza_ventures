@@ -139,7 +139,7 @@ const About = () => {
             <img
               src={filecoin_logo}
               alt="Floating Icon"
-              className="absolute w-40 h-40 animate-float hidden lg:block -bottom-60 left-32"
+              className="absolute w-40 h-40 animate-float hidden lg:block -bottom-52 left-32"
             />
             <h1 className="text-3xl md:text-5xl font-semibold px-4 md:px-10">
               Bridging Experience and Innovation
