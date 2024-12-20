@@ -57,10 +57,10 @@ const Partnership = () => {
       {
         breakpoint: 480, // Mobile portrait
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
-          dots: true,
+          dots: false,
         },
       },
     ],
