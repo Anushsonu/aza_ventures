@@ -18,9 +18,9 @@ module.exports = {
         },
       },
       animation: {
-        "scroll-left": "scrollLeft 20s linear infinite",
-        "scroll-right": "scrollRight 20s linear infinite",
-        float: "float 1.5s ease-in-out infinite",
+        "scroll-left": "scrollLeft 10s linear infinite",
+        "scroll-right": "scrollRight 30s linear infinite",
+        float: "float 4s ease-in-out infinite",
       },
       fontFamily: {
         sans: ["Roboto", "Open Sans", "sans-serif"], // Use your imported fonts

@@ -1,6 +1,8 @@
 import React from "react";
 import Lottie from "react-lottie";
 import crypto_investment from "../../assets/animations/crypto_investment.json";
+import bitcoin_logo from "../../assets/icons/bitcoin_logo.png";
+import ethereum_logo from "../../assets/icons/ethereum_logo.png";
 
 const Home = () => {
   const defaultOptions = {
@@ -47,6 +49,22 @@ const Home = () => {
           <span className="font-semibold">Focus:</span> Early-stage
           cryptocurrency investments
         </p>
+        <div className="flex justify-center items-center mt-10 space-x-16">
+          <div className="w-28 h-28 md:w-40 md:h-40 rounded-full flex justify-center items-center animate-float">
+            <img
+              src={bitcoin_logo}
+              alt="Logo 1"
+              className="w-20 h-20 md:w-32 md:h-32 object-contain"
+            />
+          </div>
+          <div className="w-28 h-28 md:w-40 md:h-40x rounded-full flex justify-center items-center animate-float">
+            <img
+              src={ethereum_logo}
+              alt="Logo 2"
+              className="w-20 h-20 md:w-32 md:h-32 object-contain"
+            />
+          </div>
+        </div>
       </div>
 
       {/* Right Section */}
