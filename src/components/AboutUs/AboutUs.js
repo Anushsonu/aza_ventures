@@ -42,7 +42,7 @@ const AboutUs = () => {
         {sections.map((section, index) => (
           <div
             key={index}
-            className="bg-white rounded-xl shadow-md overflow-hidden p-6 flex flex-col space-y-4 w-full h-[600px] lg:w-1/3 shadow-xl"
+            className="bg-white rounded-xl shadow-md overflow-hidden p-6 flex flex-col space-y-4 w-full h-[650px] lg:w-1/3 shadow-xl"
             data-aos="fade-down"
             data-aos-duration="300"
           >
