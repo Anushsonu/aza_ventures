@@ -23,16 +23,16 @@ const Home = () => {
         data-aos-duration="500"
         className="w-full md:w-1/2 pr-0 md:pr-6 pt-10 md:pt-28 text-center md:text-left"
       >
-        <h1 className="font-bold text-transparent bg-gradient-to-r from-yellow-600 to-yellow-400 bg-clip-text text-4xl md:text-6xl lg:text-8xl">
+        <h1 className="font-bold text-transparent bg-gradient-to-r from-yellow-600 to-yellow-400 bg-clip-text text-4xl md:text-7xl lg:text-9xl">
           Aza Ventures
         </h1>
-        <p className="text-lg md:text-2xl my-3 md:my-5">
+        <p className="text-lg md:text-3xl my-3 md:my-5">
           Your trusted partner in the dynamic world of cryptocurrency
           investments.
         </p>
-        <p className="mt-2 text-xl md:text-3xl font-medium">
+        {/* <p className="mt-2 text-xl md:text-3xl font-medium">
           Our Journey in Crypto Investment
-        </p>
+        </p> */}
         <div className="mt-4"></div>
         <p className="mt-4 text-base md:text-2xl">
           <span className="font-semibold">Founded:</span> 2021
