@@ -27,17 +27,16 @@ const CustomNextArrow = ({ onClick }) => (
 
 const Partnership = () => {
   const settings = {
-    dots: true, // Show navigation dots
-    infinite: true, // Enable infinite scrolling
-    speed: 500, // Animation speed
-    slidesToShow: 3, // Number of slides visible at once
-    slidesToScroll: 1, // Number of slides scrolled per swipe
-    nextArrow: <CustomPrevArrow />,
-    prevArrow: <CustomNextArrow />,
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    nextArrow: <CustomNextArrow />,
+    prevArrow: <CustomPrevArrow />,
     responsive: [
-      // Make carousel responsive
       {
-        breakpoint: 1024, // Tablet and above
+        breakpoint: 1024,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
@@ -46,7 +45,7 @@ const Partnership = () => {
         },
       },
       {
-        breakpoint: 768, // Mobile landscape
+        breakpoint: 768,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
@@ -55,7 +54,7 @@ const Partnership = () => {
         },
       },
       {
-        breakpoint: 480, // Mobile portrait
+        breakpoint: 480,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
