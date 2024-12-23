@@ -4,8 +4,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Roboto", "Open Sans", "Merriweather", "sans-serif"],
-        serif: ["Merriweather", "serif"],
+        merriweather: ["Merriweather", "serif"],
+        openSans: ["Open Sans", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
+        spectral: ["Spectral", "serif"],
       },
       keyframes: {
         scrollLeft: {

@@ -6,7 +6,7 @@ const Portfolio = () => {
   const duplicatedLogos2 = logos.slice(28, 50).concat(logos.slice(28, 50));
 
   return (
-    <div className="py-10 bg-[#3d3d3d] rounded-xl mt-20 overflow-hidden">
+    <div className="py-10 bg-[#222222] rounded-xl mt-20 overflow-hidden">
       <h2
         className="text-5xl text-white sm:text-6xl md:text-7xl text-center my-14"
         data-aos="fade-down"

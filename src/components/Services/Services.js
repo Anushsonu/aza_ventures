@@ -13,7 +13,7 @@ const Services = () => {
       title: "Research",
       description:
         "Unlock the secrets of the blockchain and uncover new opportunities with our expert research, tailored to your crypto business goals.",
-      icon: <FaSearchDollar style={{ fontSize: "5rem", color: "#000000" }} />,
+      icon: <FaSearchDollar style={{ fontSize: "5rem", color: "#222222" }} />,
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ const Services = () => {
       description:
         "Forge powerful alliances that drive growth, innovation, and success in the crypto space with our strategic partnership expertise.",
       icon: (
-        <FaHandshakeSimple style={{ fontSize: "5rem", color: "#000000" }} />
+        <FaHandshakeSimple style={{ fontSize: "5rem", color: "#222222" }} />
       ),
     },
     {
@@ -29,28 +29,28 @@ const Services = () => {
       title: "Advice",
       description:
         "Navigate the complex world of crypto with confidence, guided by our expert advice and tailored to your unique business needs.",
-      icon: <RiChatCheckFill style={{ fontSize: "5rem", color: "#000000" }} />,
+      icon: <RiChatCheckFill style={{ fontSize: "5rem", color: "#222222" }} />,
     },
     {
       id: 4,
       title: "Marketing",
       description:
         "Amplify your crypto brand's voice and reach new heights with our targeted marketing strategies, designed to drive growth and adoption.",
-      icon: <FaChartSimple style={{ fontSize: "5rem", color: "#000000" }} />,
+      icon: <FaChartSimple style={{ fontSize: "5rem", color: "#222222" }} />,
     },
     {
       id: 5,
       title: "Connections",
       description:
         "Tap into our vast network of crypto industry connections and unlock new opportunities for collaboration and growth.",
-      icon: <PiLinkSimpleFill style={{ fontSize: "5rem", color: "#000000" }} />,
+      icon: <PiLinkSimpleFill style={{ fontSize: "5rem", color: "#222222" }} />,
     },
     {
       id: 6,
       title: "Raise Funds",
       description:
         "Fuel your crypto project's growth with our Raise Fund, designed to support innovative ideas and drive success in the blockchain ecosystem.",
-      icon: <HiCurrencyDollar style={{ fontSize: "5rem", color: "#000000" }} />,
+      icon: <HiCurrencyDollar style={{ fontSize: "5rem", color: "#222222" }} />,
     },
   ];
 

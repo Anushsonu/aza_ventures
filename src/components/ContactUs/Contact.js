@@ -6,7 +6,7 @@ const Contact = () => {
   const currentYear = new Date().getFullYear(); // Dynamically get the current year
 
   return (
-    <div className="max-w-screen bg-black text-white rounded-t-xl -mx-12 sm:-mx-24 flex flex-col items-center justify-center space-y-6 px-4 sm:px-8">
+    <div className="max-w-screen bg-[#222222] text-white rounded-t-xl -mx-12 sm:-mx-24 flex flex-col items-center justify-center space-y-6 px-4 sm:px-8">
       <h1
         className="py-20 text-3xl sm:text-5xl md:text-7xl text-center"
         data-aos="fade-down"
