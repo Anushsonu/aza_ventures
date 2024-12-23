@@ -16,11 +16,11 @@ const Portfolio = () => {
       </h2>
 
       {/* Row 1 - Scroll Left */}
-      <div className="flex space-x-10 animate-scroll-left">
+      <div className="flex space-x-4 md:space-x-10 animate-scroll-left">
         {duplicatedLogos1.map((logo, index) => (
           <div
             key={index}
-            className="flex-shrink-0 w-44 h-44 rounded-lg flex items-center justify-center"
+            className="flex-shrink-0 w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 rounded-lg flex items-center justify-center"
           >
             <img
               src={logo}
@@ -32,11 +32,11 @@ const Portfolio = () => {
       </div>
 
       {/* Row 2 - Scroll Right */}
-      <div className="flex space-x-10 animate-scroll-left mt-10">
+      <div className="flex space-x-4 md:space-x-10 animate-scroll-left mt-10">
         {duplicatedLogos2.map((logo, index) => (
           <div
             key={index}
-            className="flex-shrink-0 w-44 h-44 rounded-lg flex items-center justify-center"
+            className="flex-shrink-0 w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 rounded-lg flex items-center justify-center"
           >
             <img
               src={logo}
